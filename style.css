@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 400px;
+  background-image: url(img/mv.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+h2 {
+  padding: 20px;
+  text-align: left;
+  color: gray;
+}
+.main {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+.blog-item {
+  padding-bottom: 30px;
+  border: 1px solid lightslategray;
+}
